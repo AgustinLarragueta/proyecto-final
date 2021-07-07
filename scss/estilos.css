@@ -47,6 +47,7 @@
 }
 
 #header .buscador .input {
+  padding-left: 8px;
   outline: none;
   border: 0.5px solid #808080;
   width: 350px;
@@ -209,6 +210,10 @@
 #main_productos .card.mb-3 .botoncin2:hover {
   background-color: #000;
   color: #fff;
+}
+
+#main_productos .card.mb-3 p {
+  color: #42a6e4;
 }
 
 #main_registro {

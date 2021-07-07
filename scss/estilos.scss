@@ -51,6 +51,7 @@
             }
         }
         .input {
+            padding-left: 8px;
             outline: none;
             border: 0.5px solid #808080;
             width: 350px;
@@ -183,6 +184,9 @@
                 background-color: $fondo2;
                 color: $color1;
             }
+        }
+        p {
+            color: #42a6e4;
         }
     }
 }
