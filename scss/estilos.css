@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap");
+* {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+#header .buscador {
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+#header .buscador .fotito {
+  width: 300px;
+}
+
+@media all and (max-width: 1200px) {
+  #header .buscador .fotito {
+    width: 205px;
+  }
+}
+
+#header .buscador .fotito_sm {
+  width: 80px;
+}
+
+@media all and (max-width: 380px) {
+  #header .buscador .fotito_sm {
+    width: 50px;
+  }
+}
+
+#header .buscador .cart {
+  width: 50px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+@media all and (max-width: 380px) {
+  #header .buscador .cart {
+    width: 30px;
+  }
+}
+
+#header .buscador .cart:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#header .buscador .input {
+  outline: none;
+  border: 0.5px solid #808080;
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+@media all and (max-width: 992px) {
+  #header .buscador .input {
+    width: 250px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  #header .buscador .input {
+    width: 100px;
+  }
+}
+
+@media all and (max-width: 380px) {
+  #header .buscador .input {
+    height: auto;
+    width: 80px;
+  }
+}
+
+#header .buscador .botoncin {
+  outline: none;
+  border: none;
+  width: 75px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#header .buscador .botoncin:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#header .buscador .botoncin:focus {
+  outline: none;
+}
+
+#header .buscador .botoncin_sm {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+#header .buscador .botoncin_sm:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#header .buscador .botoncin_sm:focus {
+  outline: none;
+}
+
+#header .minav {
+  padding: 0;
+  padding-top: 84px;
+}
+
+#header .minav .nav-link {
+  color: #fff !important;
+}
+
+#header .minav .nav-link:hover {
+  background-color: #808080;
+  border-radius: 5px;
+}
+
+#header .minav .bg-dark {
+  background-color: #000 !important;
+}
+
+#header .minav .dropdown-item:active {
+  background-color: #808080;
+}
+
+@media all and (max-width: 1200px) {
+  #header .minav {
+    padding-top: 57px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #header .minav {
+    padding-top: 74px;
+  }
+}
+
+@media all and (max-width: 380px) {
+  #header .minav {
+    padding-top: 46px;
+  }
+}
+
+#main {
+  border-bottom: 1px #000 solid;
+}
+
+#main_armado {
+  border-bottom: 1px #000 solid;
+  min-height: 600px;
+}
+
+#main_armado h1 {
+  font-weight: 300;
+}
+
+#main_armado .imagen_armado {
+  width: 100%;
+}
+
+#main_productos {
+  border-bottom: #000 1px solid;
+  height: 100%;
+}
+
+#main_productos .imagen_productos {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+#main_productos .micard {
+  width: 18rem !important;
+  height: 552px;
+}
+
+#main_productos .micard ul li:hover {
+  background-color: #eaeaea;
+}
+
+#main_productos .micard ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+#main_productos .card.mb-3 .card-img {
+  width: 150px;
+  margin-top: 5px;
+}
+
+#main_productos .card.mb-3:hover {
+  -webkit-box-shadow: 1px 1px 10px 1px #c9c9c9;
+  box-shadow: 1px 1px 10px 1px #c9c9c9;
+}
+
+#main_productos .card.mb-3 .botoncin2 {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 3px 1px #c9c9c9;
+  box-shadow: 1px 1px 3px 1px #c9c9c9;
+}
+
+#main_productos .card.mb-3 .botoncin2:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#main_registro {
+  border-bottom: 1px solid #000;
+}
+
+#main_registro .formulario {
+  -webkit-box-shadow: 1px 1px 3px 1px #c9c9c9;
+  box-shadow: 1px 1px 3px 1px #c9c9c9;
+  width: 500px;
+  border-radius: 10px;
+}
+
+#main_registro .formulario:hover {
+  -webkit-box-shadow: 1px 10px 5px 1px #c9c9c9;
+  box-shadow: 1px 1px 10px 1px #c9c9c9;
+}
+
+#main_registro .formulario .titulo_registro {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  display: block;
+}
+
+#main_registro .formulario form {
+  padding: 5px;
+  width: 100%;
+}
+
+#main_registro .formulario form button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+#main_registro .formulario form button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#main_registro .formulario form .buttonfb {
+  background-color: #4089d8;
+}
+
+#main_registro .formulario form .buttonfb:hover {
+  background-color: #0464cc;
+}
+
+#main_registro .formulario form .buttongg {
+  background-color: #e49756;
+}
+
+#main_registro .formulario form .buttongg:hover {
+  background-color: #fd7e14;
+}
+
+#main_registro .formulario form .ings {
+  text-decoration: none;
+  color: #000;
+}
+
+#main_registro .formulario form .ings:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+#main_registro .formulario form .form-control:focus {
+  border-color: #8a8a8a;
+  -webkit-box-shadow: inset 0 1px 1px rgba(160, 160, 160, 0.075), 0 0 8px rgba(131, 131, 131, 0.6);
+          box-shadow: inset 0 1px 1px rgba(160, 160, 160, 0.075), 0 0 8px rgba(131, 131, 131, 0.6);
+}
+
+#main_ingreso {
+  border-bottom: #000 1px solid;
+}
+
+#main_ingreso .formulario {
+  -webkit-box-shadow: 1px 1px 3px 1px #c9c9c9;
+  box-shadow: 1px 1px 3px 1px #c9c9c9;
+  width: 500px;
+  border-radius: 10px;
+}
+
+#main_ingreso .formulario:hover {
+  -webkit-box-shadow: 1px 10px 5px 1px #c9c9c9;
+  box-shadow: 1px 1px 10px 1px #c9c9c9;
+}
+
+#main_ingreso .titulo_ingreso {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  display: block;
+}
+
+#main_ingreso form {
+  padding: 5px;
+  width: 100%;
+}
+
+#main_ingreso form button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+#main_ingreso form button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#main_ingreso form .buttonfb {
+  background-color: #4089d8;
+}
+
+#main_ingreso form .buttonfb:hover {
+  background-color: #0464cc;
+}
+
+#main_ingreso form .buttongg {
+  background-color: #e49756;
+}
+
+#main_ingreso form .buttongg:hover {
+  background-color: #fd7e14;
+}
+
+#main_ingreso form .rgs {
+  text-decoration: none;
+  color: #000;
+}
+
+#main_ingreso form .rgs:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+#main_ingreso form .form-control:focus {
+  border-color: #8a8a8a;
+  -webkit-box-shadow: inset 0 1px 1px rgba(160, 160, 160, 0.075), 0 0 8px rgba(131, 131, 131, 0.6);
+          box-shadow: inset 0 1px 1px rgba(160, 160, 160, 0.075), 0 0 8px rgba(131, 131, 131, 0.6);
+}
+
+#main_ayuda {
+  border-bottom: 1px #000 solid;
+}
+
+#main_ayuda .borde_ayuda {
+  border-bottom: 5px double #000;
+}
+
+#main_ayuda .borde_ayuda .titulos_ayuda {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  display: block;
+}
+
+#main_ayuda strong {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+#main_ayuda p {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+#main_ayuda h2 {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+#footer h3 {
+  font-weight: 700;
+}
+
+#footer .datawebimg {
+  width: 50px;
+}
+
+#footer .titulos_footer {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+  display: block;
+}
+
+#footer .boton_ayuda {
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+#footer .boton_ayuda:hover {
+  background-color: #fff;
+  border: #000 0.5px solid;
+  color: #000;
+}
+
+#footer .fb {
+  width: 60px;
+  -webkit-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+
+#footer .fb:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#footer .ig {
+  width: 60px;
+  -webkit-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+
+#footer .ig:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#footer .marca_registrada {
+  border-top: 1px #000 solid;
+  text-align: center;
+}
+
+#footer .marca_registrada .copyright {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  display: block;
+}
+
+.wp {
+  width: 50px;
+}
+/*# sourceMappingURL=estilos.css.map */
