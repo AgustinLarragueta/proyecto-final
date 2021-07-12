@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap");
 * {
   font-family: "Oswald", sans-serif;
@@ -124,19 +125,35 @@
   background-color: #000 !important;
 }
 
-#header .minav .dropdown-item:active {
-  background-color: #808080;
+#header .minav .dropdown-item img {
+  width: 100px;
 }
 
-@media all and (max-width: 1200px) {
-  #header .minav {
-    padding-top: 57px;
-  }
+#header .minav .dropdown-item:active {
+  background-color: #808080;
 }
 
 @media all and (max-width: 768px) {
   #header .minav {
     padding-top: 74px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  #header .minav {
+    padding-top: 57px;
+  }
+}
+
+@media all and (width: 1200px) {
+  #header .minav {
+    padding-top: 57px;
+  }
+}
+
+@media all and (min-width: 1201px) {
+  #header .minav {
+    padding-top: 84px;
   }
 }
 
@@ -214,6 +231,17 @@
 
 #main_productos .card.mb-3 p {
   color: #42a6e4;
+}
+
+#main_productos .modal-dialog button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+#main_productos .modal-dialog button:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 #main_registro {
@@ -358,6 +386,51 @@
           box-shadow: inset 0 1px 1px rgba(160, 160, 160, 0.075), 0 0 8px rgba(131, 131, 131, 0.6);
 }
 
+#main_contraseña {
+  border-bottom: #000 1px solid;
+}
+
+#main_contraseña .formulario {
+  -webkit-box-shadow: 1px 1px 3px 1px #c9c9c9;
+  box-shadow: 1px 1px 3px 1px #c9c9c9;
+  width: 500px;
+  border-radius: 10px;
+}
+
+#main_contraseña .formulario:hover {
+  -webkit-box-shadow: 1px 10px 5px 1px #c9c9c9;
+  box-shadow: 1px 1px 10px 1px #c9c9c9;
+}
+
+#main_contraseña .titulo_contraseña {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  display: block;
+}
+
+#main_contraseña form {
+  padding: 5px;
+  width: 100%;
+}
+
+#main_contraseña form button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+#main_contraseña form button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#main_contraseña form .form-control:focus {
+  border-color: #8a8a8a;
+  -webkit-box-shadow: inset 0 1px 1px rgba(160, 160, 160, 0.075), 0 0 8px rgba(131, 131, 131, 0.6);
+          box-shadow: inset 0 1px 1px rgba(160, 160, 160, 0.075), 0 0 8px rgba(131, 131, 131, 0.6);
+}
+
 #main_ayuda {
   border-bottom: 1px #000 solid;
 }
@@ -386,6 +459,25 @@
 #main_ayuda h2 {
   font-size: 1em;
   font-weight: 700;
+}
+
+#main_carrito {
+  border-bottom: 1px #000 solid;
+  height: 200px;
+}
+
+#main_carrito .container-fluid {
+  height: 150px;
+  background-color: #979797;
+}
+
+#main_carrito h5 {
+  font-size: 2em;
+}
+
+#main_carrito p {
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 #footer h3 {
