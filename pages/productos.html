@@ -19,7 +19,7 @@
   <body>
 
       <!--HEADER-->
-      <div id="header">
+      <header id="header">
         <div class="buscador container-fluid fixed-top">
           <div class="row">
             <div class="col d-flex justify-content-center align-items-center">
@@ -88,39 +88,39 @@
             </div>
           </div>
         </div>
-      </div>
+      </header>
 
       <!--MAIN-->
-    <div id="main_productos">
+    <main id="main_productos">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 d-flex justify-content-md-end justify-content-center p-1">
                     <div class="card micard">
                         <ul class="list-group list-group-flush">
-                          <a href="#"><li class="list-group-item">PROCESADORES</li></a>
-                          <a href="#"><li class="list-group-item">PLACAS DE VIDEO</li></a>
-                          <a href="#"><li class="list-group-item">MOTHERS</li></a>
-                          <a href="#"><li class="list-group-item">MEMORIAS RAM</li></a>
-                          <a href="#"><li class="list-group-item">DISCOS RÍGIDOS</li></a>
-                          <a href="#"><li class="list-group-item">FUENTES</li></a>
-                          <a href="#"><li class="list-group-item">TECLADOS</li></a>
-                          <a href="#"><li class="list-group-item">COOLERS</li></a>
-                          <a href="#"><li class="list-group-item">MOUSES</li></a>
-                          <a href="#"><li class="list-group-item">MONITORES Y TELEVISORES</li></a>
-                          <a href="#"><li class="list-group-item">CONSOLAS</li></a>
+                          <a href="#procesador_id"><li class="list-group-item">PROCESADORES</li></a>
+                          <a href="#placadevideo_id"><li class="list-group-item">PLACAS DE VIDEO</li></a>
+                          <a href="#memoriaram_id"><li class="list-group-item">MEMORIAS RAM</li></a>
+                          <a href="#discossd_id"><li class="list-group-item">DISCOS RÍGIDOS</li></a>
+                          <a href="#fuente_id"><li class="list-group-item">FUENTES</li></a>
+                          <a href="#teclado_id"><li class="list-group-item">TECLADOS</li></a>
+                          <a href="#mouse_id"><li class="list-group-item">MOUSES</li></a>
+                          <a href="#monitor_id"><li class="list-group-item">MONITORES Y TELEVISORES</li></a>
+                          <a href="#"><li class="list-group-item disabled">MOTHERS</li></a>
+                          <a href="#"><li class="list-group-item disabled">COOLERS</li></a>
+                          <a href="#"><li class="list-group-item disabled">CONSOLAS</li></a>
                         </ul>
                     </div>
                 </div>
                 <div class="col col-md-8 p-1">
                     <img src="../media/banner_productos.png" alt="banner" class="imagen_productos mb-1">
-                    <div class="card mb-3">
+                    <div class="card mb-3" id="procesador_id">
                         <div class="row no-gutters">
-                          <div class="col-md-4 col-lg-3 p-3">
-                            <img src="../media/procesador.jpg" class="card-img" alt="procesador">
+                          <div class="col-md-4 col-lg-3 p-3 text-center">
+                            <a href="product-indv/procesador.html"><img src="../media/procesador.jpg" class="card-img" alt="procesador"></a>
                           </div>
-                          <div class="col-md-8 col-lg-9">
+                          <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
                             <div class="card-body">
-                              <h5 class="card-title">Procesador Intel Core i7 9700F 4.7GHz Turbo 1151 Coffee Lake</h5>
+                              <a href="product-indv/procesador.html"><h5 class="card-title">Procesador Intel Core i7 9700F 4.7GHz Turbo 1151 Coffee Lake</h5></a>
                               <p>$40.000</p>
                               <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
                             </div>
@@ -128,41 +128,55 @@
                         </div>
                     </div>
                     <div class="card mb-3">
-                        <div class="row no-gutters">
-                          <div class="col-md-4 col-lg-3 p-3">
-                            <img src="../media/mouse.jpg" class="card-img" alt="mouse">
+                      <div class="row no-gutters">
+                        <div class="col-md-4 col-lg-3 p-3 text-center">
+                          <a href="product-indv/procesador2.html"><img src="../media/procesador2.jpg" class="card-img" alt="procesador"></a>
+                        </div>
+                        <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                          <div class="card-body">
+                            <a href="product-indv/procesador2.html"><h5 class="card-title">Procesador AMD RYZEN 7 3700X 4.4 GHz AM4 Wraith Prism RGB Led Cooler</h5></a>
+                            <p>$42.000</p>
+                            <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
                           </div>
-                          <div class="col-md-8 col-lg-9">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3" id="mouse_id">
+                        <div class="row no-gutters">
+                          <div class="col-md-4 col-lg-3 p-3 text-center">
+                            <a href="product-indv/mouse.html"><img src="../media/mouse.jpg" class="card-img" alt="mouse"></a>
+                          </div>
+                          <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
                             <div class="card-body">
-                              <h5 class="card-title">Mouse Glorious Model D Minus - Matte Black</h5>
+                              <a href="product-indv/mouse.html"><h5 class="card-title">Mouse Glorious Model D Minus - Matte Black</h5></a>
                               <p>$7.000</p>
                               <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
                             </div>
                           </div>
                         </div>
                     </div>
-                    <div class="card mb-3">
+                    <div class="card mb-3" id="fuente_id">
                         <div class="row no-gutters">
-                          <div class="col-md-4 col-lg-3 p-3">
-                            <img src="../media/fuente.jpg" class="card-img" alt="fuente">
+                          <div class="col-md-4 col-lg-3 p-3 text-center">
+                            <a href="product-indv/fuente.html"><img src="../media/fuente.jpg" class="card-img" alt="fuente"></a>
                           </div>
-                          <div class="col-md-8 col-lg-9">
+                          <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
                             <div class="card-body">
-                              <h5 class="card-title">Fuente ASUS TUF 650B 80 Plus Bronze 650W</h5>
+                              <a href="product-indv/fuente.html"><h5 class="card-title">Fuente ASUS TUF 650B 80 Plus Bronze 650W</h5></a>
                               <p>$15.000</p>
                               <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
                             </div>
                           </div>
                         </div>
                     </div>
-                    <div class="card mb-3">
+                    <div class="card mb-3" id="placadevideo_id">
                         <div class="row no-gutters">
-                          <div class="col-md-4 col-lg-3 p-3">
-                            <img src="../media/placadevideo.jpg" class="card-img" alt="placadevideo">
+                          <div class="col-md-4 col-lg-3 p-3 text-center">
+                            <a href="product-indv/placadevideo.html"><img src="../media/placadevideo.jpg" class="card-img" alt="placadevideo"></a>
                           </div>
-                          <div class="col-md-8 col-lg-9">
+                          <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
                             <div class="card-body">
-                              <h5 class="card-title">Placa de Video Zotac GeForce RTX 3070 8GB GDDR6 Twin Edge OC</h5>
+                              <a href="product-indv/placadevideo.html"><h5 class="card-title">Placa de Video Zotac GeForce RTX 3070 8GB GDDR6 Twin Edge OC</h5></a>
                               <p>$260.000</p>
                               <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
                             </div>
@@ -170,83 +184,69 @@
                         </div>
                     </div>
                     <div class="card mb-3">
-                        <div class="row no-gutters">
-                          <div class="col-md-4 col-lg-3 p-3">
-                            <img src="../media/teclado.jpg" class="card-img" alt="teclado">
+                      <div class="row no-gutters">
+                        <div class="col-md-4 col-lg-3 p-3 text-center">
+                          <a href="product-indv/placadevideo2.html"><img src="../media/placadevideo2.jpg" class="card-img" alt="placadevideo"></a>
+                        </div>
+                        <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
+                          <div class="card-body">
+                            <a href="product-indv/placadevideo2.html"><h5 class="card-title">Placa de Video Asrock Radeon RX 6900 XT 16GB GDDR6 PCIe 4.0</h5></a>
+                            <p>$265.000</p>
+                            <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
                           </div>
-                          <div class="col-md-8 col-lg-9">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3" id="teclado_id">
+                        <div class="row no-gutters">
+                          <div class="col-md-4 col-lg-3 p-3 text-center">
+                            <a href="product-indv/teclado.html"><img src="../media/teclado.jpg" class="card-img" alt="teclado"></a>
+                          </div>
+                          <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
                             <div class="card-body">
-                              <h5 class="card-title">Teclado Mecanico ASUS TUF Gaming K3 US Red</h5>
+                              <a href="product-indv/teclado.html"><h5 class="card-title">Teclado Mecanico ASUS TUF Gaming K3 US Red</h5></a>
                               <p>$11.000</p>
                               <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
                             </div>
                           </div>
                         </div>
                     </div>
-                    <div class="card mb-3">
+                    <div class="card mb-3" id="monitor_id">
                         <div class="row no-gutters">
-                          <div class="col-md-4 col-lg-3 p-3">
-                            <img src="../media/placadevideo2.jpg" class="card-img" alt="placadevideo">
+                          <div class="col-md-4 col-lg-3 p-3 text-center">
+                            <a href="product-indv/monitor.html"><img src="../media/monitor.jpg" class="card-img" alt="monitor"></a>
                           </div>
-                          <div class="col-md-8 col-lg-9">
+                          <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
                             <div class="card-body">
-                              <h5 class="card-title">Placa de Video Asrock Radeon RX 6900 XT 16GB GDDR6 PCIe 4.0</h5>
-                              <p>$265.000</p>
-                              <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="row no-gutters">
-                          <div class="col-md-4 col-lg-3 p-3">
-                            <img src="../media/procesador2.jpg" class="card-img" alt="procesador">
-                          </div>
-                          <div class="col-md-8 col-lg-9">
-                            <div class="card-body">
-                              <h5 class="card-title">Procesador AMD RYZEN 7 3700X 4.4 GHz AM4 Wraith Prism RGB Led Cooler</h5>
-                              <p>$42.000</p>
-                              <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="row no-gutters">
-                          <div class="col-md-4 col-lg-3 p-3">
-                            <img src="../media/monitor.jpg" class="card-img" alt="monitor">
-                          </div>
-                          <div class="col-md-8 col-lg-9">
-                            <div class="card-body">
-                              <h5 class="card-title">Monitor HDC 23.8´ Pulgadas E2380AR-S VGA+HDMI FULL HD</h5>
+                              <a href="product-indv/monitor.html"><h5 class="card-title">Monitor ASUS 21.5" Full HD 1ms HDMI VGA VP228HE</h5></a>
                               <p>$20.000</p>
                               <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
                             </div>
                           </div>
                         </div>
                     </div>
-                    <div class="card mb-3">
+                    <div class="card mb-3" id="memoriaram_id">
                         <div class="row no-gutters">
-                          <div class="col-md-4 col-lg-3 p-3">
-                            <img src="../media/memoriaram.jpg" class="card-img" alt="memoriaram">
+                          <div class="col-md-4 col-lg-3 p-3 text-center">
+                            <a href="product-indv/memoriaram.html"><img src="../media/memoriaram.jpg" class="card-img" alt="memoriaram"></a>
                           </div>
-                          <div class="col-md-8 col-lg-9">
+                          <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
                             <div class="card-body">
-                              <h5 class="card-title">Memoria GeiL DDR4 8GB 3000MHz EVO POTENZA RED</h5>
+                              <a href="product-indv/memoriaram.html"><h5 class="card-title">Memoria GeiL DDR4 8GB 3000MHz EVO POTENZA RED</h5></a>
                               <p>$6.000</p>
                               <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
                             </div>
                           </div>
                         </div>
                     </div>
-                    <div class="card mb-3">
+                    <div class="card mb-3" id="discossd_id">
                         <div class="row no-gutters">
-                          <div class="col-md-4 col-lg-3 p-3">
-                            <img src="../media/discossd.jpg" class="card-img" alt="ssd">
+                          <div class="col-md-4 col-lg-3 p-3 text-center">
+                            <a href="product-indv/discossd.html"><img src="../media/discossd.jpg" class="card-img" alt="ssd"></a>
                           </div>
-                          <div class="col-md-8 col-lg-9">
+                          <div class="col-md-8 col-lg-9 text-center text-sm-center text-md-left text-lg-left">
                             <div class="card-body">
-                              <h5 class="card-title">Disco Sólido SSD Kingston 240GB A400 500MB/s</h5>
+                              <a href="product-indv/discossd.html"><h5 class="card-title">Disco Sólido SSD Kingston 240GB A400 500MB/s</h5></a>
                               <p>$4.000</p>
                               <button class="botoncin2" data-toggle="modal" data-target="#exampleModal">SUMAR AL CARRITO</button>
                             </div>
@@ -275,10 +275,10 @@
                 </div>
             </div>
         </div>
-    </div>
+      </main>
 
       <!--FOOTER-->
-      <div id="footer">
+      <footer id="footer">
         <div class="container-fluid d-flex flex-column flex-md-row px-0 mt-4">
           <div class="container-fluid d-flex flex-column justify-content-center align-items-center mb-5">
               <div>
@@ -310,7 +310,7 @@
         <div class="container marca_registrada">
             <span class="copyright m-5">Copyright © 2021 HARDSOFT-SHOP</span>
         </div>
-      </div>
+      </footer>
       <div class=" d-flex justify-content-end fixed-bottom mr-1 mb-1">
         <a href="https://www.whatsapp.com/" target="_blank"><img src="../media/wp.svg" alt="wpp" class="wp"></a>
       </div>

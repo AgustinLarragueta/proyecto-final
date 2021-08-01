@@ -197,6 +197,10 @@
         p {
             color: #42a6e4;
         }
+        a {
+            text-decoration: none;
+            color: $texto2;
+        }
     }
     .modal-dialog button {
         outline: none;
@@ -403,6 +407,87 @@
     p {
         font-size: 1.2em;
         font-weight: $fuente-thin;
+    }
+}
+
+#main_product_indv {
+    border-bottom: 1px $color2 solid;
+    height: 100%;
+    .breadcrumb-item{
+        a {
+            text-decoration: none;
+        }
+    }
+    .img_product_indv {
+        width: 400px;
+        @media all and (max-width: 768px){
+            width: 250px;
+        }
+    }
+    .separadores{
+        border-bottom: 1px $color2 solid;
+        .titulo_product {
+            font-size: 2em;
+            @media all and (max-width: 576px){
+                font-size: 1.5em
+            }
+        }
+        .precio {
+            font-size: 1.5em;
+            font-weight: $fuente-bold;
+            color: #42a6e4;
+        }
+        .datos {
+            font-size: 0.9em;
+            color: rgb(37, 197, 37);
+            span {
+                color: $texto2;
+            }
+        }
+    }
+    .especificaciones {
+        p {
+            font-size: 1.5em;
+            font-weight: $fuente-thin;
+            border-bottom: 1px $color2 solid;
+        }
+    }
+    .especificaciones_items {
+        p {
+            line-height: 0.8em;
+            font-weight: $fuente-bold;
+            span {
+                color: #686868;
+            }
+        }
+    }
+    .botoncin2 {
+        width: 300px;
+        height: 30px;
+        outline: none;
+        border:none;
+        background-color: $fondo1;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 1px 1px 3px 1px #c9c9c9;
+        box-shadow: 1px 1px 3px 1px #c9c9c9;
+        &:hover {
+            background-color: $fondo2;
+            color: $color1;
+        }
+        @media all and (max-width: 576px){
+            width: 150px;
+        }
+    }
+    .modal-dialog button {
+        outline: none;
+        border: none;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        &:hover {
+            background-color: $fondo2;
+            color: $color1;
+        }
     }
 }
 

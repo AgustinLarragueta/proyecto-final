@@ -233,6 +233,11 @@
   color: #42a6e4;
 }
 
+#main_productos .card.mb-3 a {
+  text-decoration: none;
+  color: #000;
+}
+
 #main_productos .modal-dialog button {
   outline: none;
   border: none;
@@ -478,6 +483,102 @@
 #main_carrito p {
   font-size: 1.2em;
   font-weight: 300;
+}
+
+#main_product_indv {
+  border-bottom: 1px #000 solid;
+  height: 100%;
+}
+
+#main_product_indv .breadcrumb-item a {
+  text-decoration: none;
+}
+
+#main_product_indv .img_product_indv {
+  width: 400px;
+}
+
+@media all and (max-width: 768px) {
+  #main_product_indv .img_product_indv {
+    width: 250px;
+  }
+}
+
+#main_product_indv .separadores {
+  border-bottom: 1px #000 solid;
+}
+
+#main_product_indv .separadores .titulo_product {
+  font-size: 2em;
+}
+
+@media all and (max-width: 576px) {
+  #main_product_indv .separadores .titulo_product {
+    font-size: 1.5em;
+  }
+}
+
+#main_product_indv .separadores .precio {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #42a6e4;
+}
+
+#main_product_indv .separadores .datos {
+  font-size: 0.9em;
+  color: #25c525;
+}
+
+#main_product_indv .separadores .datos span {
+  color: #000;
+}
+
+#main_product_indv .especificaciones p {
+  font-size: 1.5em;
+  font-weight: 300;
+  border-bottom: 1px #000 solid;
+}
+
+#main_product_indv .especificaciones_items p {
+  line-height: 0.8em;
+  font-weight: 700;
+}
+
+#main_product_indv .especificaciones_items p span {
+  color: #686868;
+}
+
+#main_product_indv .botoncin2 {
+  width: 300px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 3px 1px #c9c9c9;
+  box-shadow: 1px 1px 3px 1px #c9c9c9;
+}
+
+#main_product_indv .botoncin2:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media all and (max-width: 576px) {
+  #main_product_indv .botoncin2 {
+    width: 150px;
+  }
+}
+
+#main_product_indv .modal-dialog button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+#main_product_indv .modal-dialog button:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 #footer h3 {
